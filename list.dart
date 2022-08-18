@@ -1,4 +1,15 @@
 void main() {
+  List<dynamic> newList2 = [
+    1,
+    'qwe',
+    true
+  ]; // dinamik liste tanımlama formülü, pek tavsiye edilmez riskli
+
+  for (var item in newList2) {
+    //listeleri dolaşmanın farklı bir çeşidi
+    print(item);
+  }
+
   /*
   List<String> names = ['john', 'emily', 'billie'];
 
