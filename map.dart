@@ -19,7 +19,7 @@ void main() {
   // parasının toplamı 50 ve üstü olmayan hesaplar kredi çekemez yazdır
 
   const String bankName = 'ozBank';
-
+  // map tanımlarken içindeki değişken türlerine göre değer ataması yapılır
   Map<String, List<int>> bankAccounts = {
     'Ahmet': [100, 150, 200],
     'Veli': [20, 30],
